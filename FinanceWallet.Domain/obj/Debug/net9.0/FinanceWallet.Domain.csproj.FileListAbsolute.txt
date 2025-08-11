@@ -9,3 +9,4 @@
 /Users/shravelsharma/Documents/Projects/Finance Management App/FinanceWallet.Domain/obj/Debug/net9.0/refint/FinanceWallet.Domain.dll
 /Users/shravelsharma/Documents/Projects/Finance Management App/FinanceWallet.Domain/obj/Debug/net9.0/FinanceWallet.Domain.pdb
 /Users/shravelsharma/Documents/Projects/Finance Management App/FinanceWallet.Domain/obj/Debug/net9.0/ref/FinanceWallet.Domain.dll
+/Users/shravelsharma/Documents/Projects/Finance Management App/FinanceWallet.Domain/obj/Debug/net9.0/FinanceWallet.Domain.sourcelink.json

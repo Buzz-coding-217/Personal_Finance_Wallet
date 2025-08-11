@@ -77,3 +77,4 @@
 /Users/shravelsharma/Documents/Projects/Finance Management App/FinanceWallet.Presentation/obj/Debug/net9.0/FinanceWallet.Presentation.pdb
 /Users/shravelsharma/Documents/Projects/Finance Management App/FinanceWallet.Presentation/obj/Debug/net9.0/FinanceWallet.Presentation.genruntimeconfig.cache
 /Users/shravelsharma/Documents/Projects/Finance Management App/FinanceWallet.Presentation/obj/Debug/net9.0/ref/FinanceWallet.Presentation.dll
+/Users/shravelsharma/Documents/Projects/Finance Management App/FinanceWallet.Presentation/obj/Debug/net9.0/FinanceWallet.Presentation.sourcelink.json

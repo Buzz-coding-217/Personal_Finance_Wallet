@@ -17,3 +17,4 @@
 /Users/shravelsharma/Documents/Projects/Finance Management App/FinanceWallet.Infrastructure/obj/Debug/net9.0/FinanceWallet.Infrastructure.pdb
 /Users/shravelsharma/Documents/Projects/Finance Management App/FinanceWallet.Infrastructure/obj/Debug/net9.0/FinanceWallet.Infrastructure.genruntimeconfig.cache
 /Users/shravelsharma/Documents/Projects/Finance Management App/FinanceWallet.Infrastructure/obj/Debug/net9.0/ref/FinanceWallet.Infrastructure.dll
+/Users/shravelsharma/Documents/Projects/Finance Management App/FinanceWallet.Infrastructure/obj/Debug/net9.0/FinanceWallet.Infrastructure.sourcelink.json

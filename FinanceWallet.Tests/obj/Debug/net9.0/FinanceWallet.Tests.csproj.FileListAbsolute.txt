@@ -101,3 +101,4 @@
 /Users/shravelsharma/Documents/Projects/Finance Management App/FinanceWallet.Tests/obj/Debug/net9.0/FinanceWallet.Tests.pdb
 /Users/shravelsharma/Documents/Projects/Finance Management App/FinanceWallet.Tests/obj/Debug/net9.0/FinanceWallet.Tests.genruntimeconfig.cache
 /Users/shravelsharma/Documents/Projects/Finance Management App/FinanceWallet.Tests/obj/Debug/net9.0/ref/FinanceWallet.Tests.dll
+/Users/shravelsharma/Documents/Projects/Finance Management App/FinanceWallet.Tests/obj/Debug/net9.0/FinanceWallet.Tests.sourcelink.json

@@ -13,3 +13,4 @@
 /Users/shravelsharma/Documents/Projects/Finance Management App/FinanceWallet.Application/obj/Debug/net9.0/refint/FinanceWallet.Application.dll
 /Users/shravelsharma/Documents/Projects/Finance Management App/FinanceWallet.Application/obj/Debug/net9.0/FinanceWallet.Application.pdb
 /Users/shravelsharma/Documents/Projects/Finance Management App/FinanceWallet.Application/obj/Debug/net9.0/ref/FinanceWallet.Application.dll
+/Users/shravelsharma/Documents/Projects/Finance Management App/FinanceWallet.Application/obj/Debug/net9.0/FinanceWallet.Application.sourcelink.json

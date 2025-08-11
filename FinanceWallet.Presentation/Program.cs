@@ -9,9 +9,12 @@ namespace FinanceWallet.Presentation
     {
         static void Main()
         {
-            var dbPath = "financewallet.db"; // SQLite database file
-            var statement = new SqliteSpending(dbPath); // same variable name
-            var service = new SpendingService(statement);
+            var dbPath = "financewallet.db";
+
+            var commandRepo = new SqliteSpendingCommandRepository(dbPath);
+            var queryRepo = new SqliteSpendingQueryRepository(dbPath);
+
+            var service = new SpendingService(commandRepo, queryRepo);
 
             var now = DateTime.UtcNow;
             service.SetMonthlyBudget(1000m, now.Year, now.Month);
