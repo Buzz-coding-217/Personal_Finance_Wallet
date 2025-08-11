@@ -8,18 +8,18 @@ namespace FinanceWallet.Infrastructure.Data
 {
     public class SqliteSpendingQueryRepository : ISpendingQueryRepository
     {
-        private readonly string _connectionString;
+        private readonly string connectionString;
 
         public SqliteSpendingQueryRepository(string dbFilePath)
         {
-            _connectionString = $"Data Source={dbFilePath}";
+            connectionString = $"Data Source={dbFilePath}";
         }
 
         public IEnumerable<Spending> GetAll()
         {
             var spendings = new List<Spending>();
 
-            using var connection = new SqliteConnection(_connectionString);
+            using var connection = new SqliteConnection(connectionString);
             connection.Open();
 
             var cmd = connection.CreateCommand();
@@ -42,7 +42,7 @@ namespace FinanceWallet.Infrastructure.Data
 
         public Spending GetById(int id)
         {
-            using var connection = new SqliteConnection(_connectionString);
+            using var connection = new SqliteConnection(connectionString);
             connection.Open();
 
             var cmd = connection.CreateCommand();
@@ -68,7 +68,7 @@ namespace FinanceWallet.Infrastructure.Data
         {
             var spendings = new List<Spending>();
 
-            using var connection = new SqliteConnection(_connectionString);
+            using var connection = new SqliteConnection(connectionString);
             connection.Open();
 
             var cmd = connection.CreateCommand();

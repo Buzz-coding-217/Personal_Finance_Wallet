@@ -9,17 +9,17 @@ namespace FinanceWallet.Infrastructure.Data
 {
     public class SqliteSpendingCommandRepository : ISpendingCommandRepository
     {
-        private readonly string _connectionString;
+        private readonly string connectionString;
 
         public SqliteSpendingCommandRepository(string dbFilePath)
         {
-            _connectionString = $"Data Source={dbFilePath}";
+            connectionString = $"Data Source={dbFilePath}";
             InitializeDatabase();
         }
 
         private void InitializeDatabase()
         {
-            using var connection = new SqliteConnection(_connectionString);
+            using var connection = new SqliteConnection(connectionString);
             connection.Open();
 
             var cmd = connection.CreateCommand();
@@ -35,9 +35,9 @@ namespace FinanceWallet.Infrastructure.Data
             cmd.ExecuteNonQuery();
         }
 
-        public Spending Add(Spending spending)
+        public void Add(Spending spending)
         {
-            using var connection = new SqliteConnection(_connectionString);
+            using var connection = new SqliteConnection(connectionString);
             connection.Open();
 
             var cmd = connection.CreateCommand();
@@ -54,13 +54,11 @@ namespace FinanceWallet.Infrastructure.Data
 
             var id = (long)cmd.ExecuteScalar();
             spending.Id = (int)id;
-
-            return spending;
         }
 
         public void Delete(int id)
         {
-            using var connection = new SqliteConnection(_connectionString);
+            using var connection = new SqliteConnection(connectionString);
             connection.Open();
 
             var cmd = connection.CreateCommand();
@@ -71,7 +69,7 @@ namespace FinanceWallet.Infrastructure.Data
 
         public void ClearAll()
         {
-            using var connection = new SqliteConnection(_connectionString);
+            using var connection = new SqliteConnection(connectionString);
             connection.Open();
 
             var cmd = connection.CreateCommand();
