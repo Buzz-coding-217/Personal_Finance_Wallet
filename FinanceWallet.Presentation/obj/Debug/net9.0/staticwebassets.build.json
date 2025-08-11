@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "eNPbRFtIUheJoN1N9jIDXZQvfwNAeZn7s6rVQJyWywE=",
+  "Source": "FinanceWallet.Presentation",
+  "BasePath": "_content/FinanceWallet.Presentation",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}

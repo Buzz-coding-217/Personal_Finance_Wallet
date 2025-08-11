@@ -1,0 +1,15 @@
+/Users/shravelsharma/Documents/Projects/Finance Management App/FinanceWallet.Application/bin/Debug/net9.0/FinanceWallet.Application.deps.json
+/Users/shravelsharma/Documents/Projects/Finance Management App/FinanceWallet.Application/bin/Debug/net9.0/FinanceWallet.Application.dll
+/Users/shravelsharma/Documents/Projects/Finance Management App/FinanceWallet.Application/bin/Debug/net9.0/FinanceWallet.Application.pdb
+/Users/shravelsharma/Documents/Projects/Finance Management App/FinanceWallet.Application/bin/Debug/net9.0/FinanceWallet.Domain.dll
+/Users/shravelsharma/Documents/Projects/Finance Management App/FinanceWallet.Application/bin/Debug/net9.0/FinanceWallet.Domain.pdb
+/Users/shravelsharma/Documents/Projects/Finance Management App/FinanceWallet.Application/obj/Debug/net9.0/FinanceWallet.Application.csproj.AssemblyReference.cache
+/Users/shravelsharma/Documents/Projects/Finance Management App/FinanceWallet.Application/obj/Debug/net9.0/FinanceWallet.Application.GeneratedMSBuildEditorConfig.editorconfig
+/Users/shravelsharma/Documents/Projects/Finance Management App/FinanceWallet.Application/obj/Debug/net9.0/FinanceWallet.Application.AssemblyInfoInputs.cache
+/Users/shravelsharma/Documents/Projects/Finance Management App/FinanceWallet.Application/obj/Debug/net9.0/FinanceWallet.Application.AssemblyInfo.cs
+/Users/shravelsharma/Documents/Projects/Finance Management App/FinanceWallet.Application/obj/Debug/net9.0/FinanceWallet.Application.csproj.CoreCompileInputs.cache
+/Users/shravelsharma/Documents/Projects/Finance Management App/FinanceWallet.Application/obj/Debug/net9.0/FinanceW.E4C30B00.Up2Date
+/Users/shravelsharma/Documents/Projects/Finance Management App/FinanceWallet.Application/obj/Debug/net9.0/FinanceWallet.Application.dll
+/Users/shravelsharma/Documents/Projects/Finance Management App/FinanceWallet.Application/obj/Debug/net9.0/refint/FinanceWallet.Application.dll
+/Users/shravelsharma/Documents/Projects/Finance Management App/FinanceWallet.Application/obj/Debug/net9.0/FinanceWallet.Application.pdb
+/Users/shravelsharma/Documents/Projects/Finance Management App/FinanceWallet.Application/obj/Debug/net9.0/ref/FinanceWallet.Application.dll

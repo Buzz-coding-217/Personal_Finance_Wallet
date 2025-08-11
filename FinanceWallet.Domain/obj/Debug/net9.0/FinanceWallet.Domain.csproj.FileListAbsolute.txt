@@ -1,0 +1,11 @@
+/Users/shravelsharma/Documents/Projects/Finance Management App/FinanceWallet.Domain/bin/Debug/net9.0/FinanceWallet.Domain.deps.json
+/Users/shravelsharma/Documents/Projects/Finance Management App/FinanceWallet.Domain/bin/Debug/net9.0/FinanceWallet.Domain.dll
+/Users/shravelsharma/Documents/Projects/Finance Management App/FinanceWallet.Domain/bin/Debug/net9.0/FinanceWallet.Domain.pdb
+/Users/shravelsharma/Documents/Projects/Finance Management App/FinanceWallet.Domain/obj/Debug/net9.0/FinanceWallet.Domain.GeneratedMSBuildEditorConfig.editorconfig
+/Users/shravelsharma/Documents/Projects/Finance Management App/FinanceWallet.Domain/obj/Debug/net9.0/FinanceWallet.Domain.AssemblyInfoInputs.cache
+/Users/shravelsharma/Documents/Projects/Finance Management App/FinanceWallet.Domain/obj/Debug/net9.0/FinanceWallet.Domain.AssemblyInfo.cs
+/Users/shravelsharma/Documents/Projects/Finance Management App/FinanceWallet.Domain/obj/Debug/net9.0/FinanceWallet.Domain.csproj.CoreCompileInputs.cache
+/Users/shravelsharma/Documents/Projects/Finance Management App/FinanceWallet.Domain/obj/Debug/net9.0/FinanceWallet.Domain.dll
+/Users/shravelsharma/Documents/Projects/Finance Management App/FinanceWallet.Domain/obj/Debug/net9.0/refint/FinanceWallet.Domain.dll
+/Users/shravelsharma/Documents/Projects/Finance Management App/FinanceWallet.Domain/obj/Debug/net9.0/FinanceWallet.Domain.pdb
+/Users/shravelsharma/Documents/Projects/Finance Management App/FinanceWallet.Domain/obj/Debug/net9.0/ref/FinanceWallet.Domain.dll
