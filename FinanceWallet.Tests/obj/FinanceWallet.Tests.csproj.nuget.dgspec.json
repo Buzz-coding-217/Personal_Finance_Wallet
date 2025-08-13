@@ -126,14 +126,14 @@
         }
       }
     },
-    "/Users/shravelsharma/Documents/Projects/Finance Management App/FinanceWallet.Tests/FinanceWallet.Tests.csproj": {
+    "/Users/shravelsharma/Documents/Projects/Finance Management App/FinanceWallet.Infrastructure/FinanceWallet.Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/shravelsharma/Documents/Projects/Finance Management App/FinanceWallet.Tests/FinanceWallet.Tests.csproj",
-        "projectName": "FinanceWallet.Tests",
-        "projectPath": "/Users/shravelsharma/Documents/Projects/Finance Management App/FinanceWallet.Tests/FinanceWallet.Tests.csproj",
+        "projectUniqueName": "/Users/shravelsharma/Documents/Projects/Finance Management App/FinanceWallet.Infrastructure/FinanceWallet.Infrastructure.csproj",
+        "projectName": "FinanceWallet.Infrastructure",
+        "projectPath": "/Users/shravelsharma/Documents/Projects/Finance Management App/FinanceWallet.Infrastructure/FinanceWallet.Infrastructure.csproj",
         "packagesPath": "/Users/shravelsharma/.nuget/packages/",
-        "outputPath": "/Users/shravelsharma/Documents/Projects/Finance Management App/FinanceWallet.Tests/obj/",
+        "outputPath": "/Users/shravelsharma/Documents/Projects/Finance Management App/FinanceWallet.Infrastructure/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/shravelsharma/.nuget/NuGet/NuGet.Config"
@@ -173,9 +173,98 @@
         "net9.0": {
           "targetAlias": "net9.0",
           "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[9.0.8, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[9.0.8, )"
+            },
+            "Microsoft.EntityFrameworkCore.Sqlite": {
+              "target": "Package",
+              "version": "[9.0.8, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/9.0.202/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/shravelsharma/Documents/Projects/Finance Management App/FinanceWallet.Tests/FinanceWallet.Tests.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/shravelsharma/Documents/Projects/Finance Management App/FinanceWallet.Tests/FinanceWallet.Tests.csproj",
+        "projectName": "FinanceWallet.Tests",
+        "projectPath": "/Users/shravelsharma/Documents/Projects/Finance Management App/FinanceWallet.Tests/FinanceWallet.Tests.csproj",
+        "packagesPath": "/Users/shravelsharma/.nuget/packages/",
+        "outputPath": "/Users/shravelsharma/Documents/Projects/Finance Management App/FinanceWallet.Tests/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/shravelsharma/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "targetAlias": "net9.0",
+            "projectReferences": {
+              "/Users/shravelsharma/Documents/Projects/Finance Management App/FinanceWallet.Application/FinanceWallet.Application.csproj": {
+                "projectPath": "/Users/shravelsharma/Documents/Projects/Finance Management App/FinanceWallet.Application/FinanceWallet.Application.csproj"
+              },
+              "/Users/shravelsharma/Documents/Projects/Finance Management App/FinanceWallet.Domain/FinanceWallet.Domain.csproj": {
+                "projectPath": "/Users/shravelsharma/Documents/Projects/Finance Management App/FinanceWallet.Domain/FinanceWallet.Domain.csproj"
+              },
+              "/Users/shravelsharma/Documents/Projects/Finance Management App/FinanceWallet.Infrastructure/FinanceWallet.Infrastructure.csproj": {
+                "projectPath": "/Users/shravelsharma/Documents/Projects/Finance Management App/FinanceWallet.Infrastructure/FinanceWallet.Infrastructure.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.200"
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "dependencies": {
             "Microsoft.NET.Test.Sdk": {
               "target": "Package",
               "version": "[17.12.0, )"
+            },
+            "Moq": {
+              "target": "Package",
+              "version": "[4.20.72, )"
             },
             "coverlet.collector": {
               "target": "Package",

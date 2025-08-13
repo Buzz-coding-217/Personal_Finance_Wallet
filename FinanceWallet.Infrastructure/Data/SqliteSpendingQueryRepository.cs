@@ -7,11 +7,11 @@ using FinanceWallet.Domain.Exceptions;
 
 namespace FinanceWallet.Infrastructure.Data
 {
-    public class SqliteSpendingQueryRepository : ISpendingQueryRepository
+    public class SpendingQueryRepository : ISpendingQueryRepository
     {
         private readonly string connectionString;
 
-        public SqliteSpendingQueryRepository(string dbFilePath)
+        public SpendingQueryRepository(string dbFilePath)
         {
             connectionString = $"Data Source={dbFilePath}";
         }

@@ -11,8 +11,8 @@ namespace FinanceWallet.Presentation
         {
             var dbPath = "financewallet.db";
 
-            var commandRepo = new SqliteSpendingCommandRepository(dbPath);
-            var queryRepo = new SqliteSpendingQueryRepository(dbPath);
+            var commandRepo = new SpendingCommandRepository(dbPath);
+            var queryRepo = new SpendingQueryRepository(dbPath);
 
             var service = new SpendingService(commandRepo, queryRepo);
 

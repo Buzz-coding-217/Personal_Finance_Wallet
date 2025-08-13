@@ -8,11 +8,11 @@ using FinanceWallet.Domain.Exceptions;
 
 namespace FinanceWallet.Infrastructure.Data
 {
-    public class SqliteSpendingCommandRepository : ISpendingCommandRepository
+    public class SpendingCommandRepository : ISpendingCommandRepository
     {
         private readonly string connectionString;
 
-        public SqliteSpendingCommandRepository(string dbFilePath)
+        public SpendingCommandRepository(string dbFilePath)
         {
             connectionString = $"Data Source={dbFilePath}";
             try
@@ -69,7 +69,7 @@ namespace FinanceWallet.Infrastructure.Data
                 cmd.Parameters.AddWithValue("$category", spending.Category);
                 cmd.Parameters.AddWithValue("$date", spending.Date.ToString("o"));
 
-                var id = (long)cmd.ExecuteScalar();
+                var id = cmd.ExecuteNonQuery();
                 spending.Id = (int)id;
             }
             catch (SqliteException ex)
