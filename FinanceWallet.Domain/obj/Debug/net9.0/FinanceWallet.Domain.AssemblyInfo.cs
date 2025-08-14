@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("FinanceWallet.Domain")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d147b6bdc5721d37f8e23d3a3883903034e41766")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8db6a9abaa0351ba6d2407c95059ca7e0e50b396")]
 [assembly: System.Reflection.AssemblyProductAttribute("FinanceWallet.Domain")]
 [assembly: System.Reflection.AssemblyTitleAttribute("FinanceWallet.Domain")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
